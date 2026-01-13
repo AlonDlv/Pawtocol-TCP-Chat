@@ -1,0 +1,8 @@
+msg_id,app_protocol,src_app,src_port,dst_app,dst_port,message,timestamp
+1,HTTP,client_browser,50000,web_server,80,GET /index.html,0.015
+2,HTTP,client_browser,50000,web_server,80,GET /about.html,0.020
+3,HTTP,web_server,80,client_browser,50000,200 OK,0.050
+4,HTTP,client_browser,50000,web_server,80,POST /login,0.065
+5,HTTP,web_server,80,client_browser,50000,302 Redirect,0.080
+6,HTTP,client_browser,50000,web_server,80,GET /images/logo.png,0.120
+7,HTTP,web_server,80,client_browser,50000,404 Not Found,0.210
